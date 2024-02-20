@@ -1,0 +1,44 @@
+html,
+body{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.one {
+    background-image:url('image.jpg');
+    min-height: 100%;
+}
+.two{
+    background-image: url(image.jpg);
+    min-height: 100%;
+}
+.three{
+    background-image: url(image.jpg);
+    min-height: 100%;
+}
+.one,
+.two,
+.three{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.main{
+    padding: 50px 80px;
+    text-align: center;
+}
